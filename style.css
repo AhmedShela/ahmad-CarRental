@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+header{
+    background-image: url('img/hero_1_a.jpg');
+    background-repeat: none;
+    background-size: cover;
+    height: 715px;
+}
+#divHeadNav h1{
+    width: fit-content;
+    float: left;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 200%;
+    margin-left: 175px;
+}
+#navHead ul{
+    width: 195%;
+    position: relative;
+    left: 95%;
+    top: 40px;
+    font-size: 100%;
+    /* font-family: 'DM Sans', sans-serif; */
+}
+#divHeadNav{
+    display: flex;
+}
+#navHead ul li a{
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    font-family: sans-serif;
+    font-size: 90%;
+}
+#navHead ul li{ 
+    display: inline;
+    margin-left: 20px;
+}
+#headBody{
+    margin-top: 170px;
+    margin-left: 265px;
+}
+#h2Title{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000000;
+    /* font-family: 'DM Sans', sans-serif;  */
+    line-height: 60px;
+}
+strong{
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-weight: 900;
+}
+#divForm{
+    background-color: white;
+    width: fit-content;
+    padding: 40px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.optiotns{
+    width: 190px;
+    height: 60px;
+    color: gray;
+    border: #c3c3c3 1px solid;
+    padding-left: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#divForm button{
+    background-color: #007bff;
+    color: white;
+}
+/*****************main****/
+#wraper{
+    margin: 0px 200px;
+}
+#mainTitle{
+    color: #545454;
+    font-weight: bolder;
+    font-size: 30px;
+    /* margin-left: 175px; */
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+#mainTitleDesc{
+    /* margin-left: 175px; */
+    margin-top: 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+}
+#divSteps {
+display: flex;
+margin-top: 70px;
+}
+.step{
+    display: flex;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.1);
+    padding: 23px;
+    background-color: white;
+    position: relative;
+    left: -16px;
+    margin-left: -15px;
+}
+#divSteps span{
+    top: 35px;
+    position: relative;
+    font-size: 100px;
+    height: fit-content;
+    color: #007bff;
+    font-weight: 900;
+    font-family: 'DM Sans', sans-serif;
+    left: -17px;
+}
+.stepNum{
+    font-size: 15px;
+    margin-left: 20px;
+    color: #007bff;
+    font-weight: bold;
+    /* font-family: 'DM Sans', sans-serif; */
+}
+.stepTitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 10px;
+}
+.stepDesc{
+    color: grey;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 25px;
+    width: max-content;
+}
+#divVideo{
+margin-top: 20px;
+margin-left: 400px;
+}
+#divVideo img{
+float: left;
+border-radius: 50%;
+}
+#divVideo p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    color: #007bff;
+    font-size: 20px;
+}
+#divMainParent{
+    display: flex;
+    margin-top: 202px;
+    margin-left: 60px;
+}
+#divMainParent img{
+    width: 400px;
+    margin-left: 140px;
+}
+#divMainParentDisc h2{
+    color: #545454;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+#divMainParentDisc p{
+    color: grey;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 25px;
+    width: max-content;
+}
+#divMainParentDisc button{
+    width: 160px;
+    height: 50px;
+    border: #c3c3c3 1px solid;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 30px;
+}
+#MainPart2{
+    margin-top: 100px;
+    padding: 60px 0px;
+    background-color: rgba(248, 248, 248, 0.698);
+}
+#wraper2{
+    margin: 0px 200px;
+    /* margin-top: 100px; */
+}
+#wraper2Title{
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    top: 60px;
+    color: rgb(78, 78, 78);
+}
+#wraper2Disc{
+    position: relative;
+    top: 70px;
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+}
+#firstSet{
+    margin-top: 130px;
+    display: flex;
+}
+#secondSet{
+    margin-top: 60px;
+    display: flex;
+}
+.productCard{
+    padding: 20px;
+    margin-left: 20px;
+    background-color: white;
+    width: fit-content;
+}
+.productCard p{
+    line-height: 30px;
+}
+.productCard h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.productDetails{
+    display: flex;
+}
+.productDetails p{
+    margin-right: 44px;
+    color: gray;
+}
+.productCardContent{
+    margin-left: 8px;
+}
+.productCardContent img{
+position: relative;
+top: -40px;
+border-radius: 5px;
+box-shadow: 0 15px 30px 0 rgba(0,0,0,.1);
+}
+.price{
+    color: #007bff;
+    width: fit-content;
+    float: left;
+}
+#productCardDisc{
+    color: gray;
+    width: max-content;
+    font-size: 15px;
+}
+.productCardContent button{
+    width: 110px;
+    height: 45px;
+    border: #c3c3c3 1px solid;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 30px;
+}
+/************************************************************/
+#mainPart3{
+    padding: 50px;
+}
+#wraper3{
+    margin: 0px 200px;
+}
+#mainPart3Title{
+    color: #545454;
+    font-weight: bolder;
+    font-size: 30px;
+    /* margin-left: 175px; */
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+#mainPart3Disc{
+    color: grey;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 25px;
+    width: max-content;
+}
+#firstOptionsSet{
+    display: flex;
+    margin-top: 70px;
+}
+#secondOptionsSet{
+    display: flex;
+    margin-top: 40px;
+}
+.optionsCard {
+    margin-left: 20px;
+    padding: 30px;
+}
+@keyframes shadowChange {
+    from {box-shadow: 0 0px 0px 0 rgba(0,0,0,.1);}
+    to {box-shadow: 0 15px 30px 0 rgba(0,0,0,.1);}
+  }
+.optionsCard:hover{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.1);
+    animation: shadowChange 1s;
+}
+.optionsCard img{
+border-radius: 50%;    
+}
+.optionsCard h2{
+font-size: 20px;
+margin-top: 20px;
+}
+.optionsCard p{
+line-height: 30px;
+margin-top: 10px;
+color: gray;
+}
+.optionsCard a{
+text-decoration: none;
+color: #007bff;
+}
+/*************************************************/
+#mainPart4{
+    background-color: rgba(248, 248, 248, 0.698);
+}
+#wraper4{
+    padding: 50px;
+    margin: 0px 200px;
+}
+#wraper4Title{
+    color: #545454;
+    font-weight: bolder;
+    font-size: 30px;
+    /* margin-left: 175px; */
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+#wraper4Disc{
+    color: grey;
+    margin-top: 10px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 25px;
+    width: max-content;
+}
+#about{
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+}
+.aboutCard{
+    padding: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 6px 1px #007bff;
+}
+.aboutCardDisc{
+    color: gray;
+    line-height: 25px;
+    width: max-content;
+}
+.aboutCardDetails{
+    margin-top: 50px;
+}
+.aboutCardDetails img{
+float: left;
+margin-right: 20px;
+border-radius: 50%;
+}
+.aboutCardDetails h2,p{
+    position: relative;
+    padding: 5px;
+    top: 10px;
+}
+.aboutCardDetails p{
+    color: gray;
+}
+#wraper5{
+    margin: 0px 200px;
+}
+#mainPart5{
+    background-color: #007bff;
+    padding: 40px;
+}
+#mainPart5 h2{
+color: white;
+font-size: 40px;
+}
+#mainPart5 p{
+color: rgb(195, 195, 195);
+}
+#mainPart5 button{
+    float: right;
+    width: 150px;
+    height: 45px;
+    border: #c3c3c3 1px solid;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #fff;
+    color: #007bff;
+    position: relative;
+    top: -45px;
+    right: 20px;
+}
